@@ -50,7 +50,7 @@ public class HistogramDisplay extends ApplicationFrame {
 
         for (String key : histogram.keySet()) {
             dataSet.addValue(histogram.get(key), "", key);
-        }
+        } 
         
 
         return dataSet;

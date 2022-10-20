@@ -18,7 +18,7 @@ public class Histogram<T> {
     public Set<T> keySet() {
         return map.keySet();
     }
-
+ 
     public void increment(T key) {
         map.put(key, map.containsKey(key) ? map.get(key) + 1 : 1);
     }

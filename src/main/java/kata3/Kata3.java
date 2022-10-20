@@ -16,7 +16,7 @@ public class Kata3 {
         for (int i = 0; i < 4; i++) {
             histogram.increment("hotmail.es");
         }
-
+ 
         new HistogramDisplay(histogram).execute();
     }
 }
