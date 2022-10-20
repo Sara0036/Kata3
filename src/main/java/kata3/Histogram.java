@@ -11,7 +11,7 @@ public class Histogram<T> {
         map = new HashMap<>();
     }  
 
-    public int get(T key) {
+    public int get(T key) { 
         return map.get(key);
     }
 
